@@ -28,7 +28,7 @@ Proyecto de tesis para la Escuela de Formación de Tecnólogos – EPN.
 
 ## 💼 Experiencia Profesional
 
-### 👨‍💼 Asistente de Soporte Técnico – EPN (desde ago 2024)
+### 👨‍💼 Asistente de Soporte Técnico – EPN (2024 - Actualidad)
 - Atención al usuario y resolución de incidencias.
 - Clonación de imágenes y configuración masiva de equipos.
 - Instalación y soporte de software institucional.
@@ -39,11 +39,11 @@ Proyecto de tesis para la Escuela de Formación de Tecnólogos – EPN.
 - Automatización de procesos académicos.
 - Apoyo funcional a usuarios institucionales.
 
-### 📋 Asistente Administrativo – Transporte & Maquinaria (2022–2023)
+### 📋 Asistente Administrativo – Transporte & Maquinaria (2022 – Actualidad)
 - Gestión de facturación electrónica y roles de trabajo.
 - Coordinación y control administrativo operativo.
 
-### 🔧 Técnico de Mantenimiento Freelance (2022–Actualidad)
+### 🔧 Técnico de Mantenimiento Freelance (2022 – Actualidad)
 - Diagnóstico, instalación y mantenimiento de computadoras.
 - Optimización y reparación de sistemas operativos y drivers.
 
