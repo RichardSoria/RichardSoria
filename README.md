@@ -4,65 +4,79 @@
 
 ## 🚀 Tecnologías y Herramientas
 
-- **Frontend:** React.js, CoreUI, HTML5, CSS3, JavaScript, Ionic, Angular
-- **Backend:** Node.js, Fastify, Express, .NET
-- **Bases de Datos:** MongoDB, Supabase, Firebase, MySQL
-- **DevOps & Despliegue:** Docker, Docker Compose
-- **Otros Conocimientos:** Git & GitHub, JSON Schema (AJV), react-hook-form, Sockets TCP en Java, validación robusta de formularios, implementación de rutas protegidas, automatización de procesos.
+- **Frontend:** JavaScript (React.js, Angular, Ionic), HTML5, CSS3, CoreUI, Flutter
+- **Backend:** JavaScript (Node.js, Express, Fastify), C# (.NET, SignalR), Python (Flask, Django), PHP, Java, Laravel
+- **Bases de Datos:** MySQL, SQL Server, PostgreSQL (Supabase), MongoDB, Firebase
+- **Sistemas Operativos & Soporte:** Windows Server, Linux, Android, Conectividad y Acceso Remoto
+- **DevOps & Arquitectura:** Docker, Docker Compose, NGINX, Web Services REST
+- **Seguridad & Identidad:** Keycloak (OIDC, SSO), KMS, Autenticación OTP, SonarQube Cloud
+- **Otros Conocimientos:** Git & GitHub, JSON Schema (AJV), Sockets TCP, WebSockets
+
+---
 
 ## 🛠 Proyectos Destacados (Arquitectura y Desarrollo)
 
-### 📅 Sistema de Reservas de Aulas y Laboratorios (Proyecto de Tesis - EPN)
-*Sistema integral desarrollado para la Escuela de Formación de Tecnólogos de la EPN, diseñado para resolver el problema de asignación y cruce de horarios.*
+### 🔒 Integración Segura entre Laravel, Moodle, Keycloak y KMS (2026)
+*Proyecto Integrador de Desarrollo de Software Seguro enfocado en la autenticación centralizada y la protección de datos.*
+- **Arquitectura de Identidad:** Implementación de SSO y OIDC mediante Keycloak con federación de usuarios.
+- **Seguridad:** Configuración de un segundo factor de autenticación (OTP móvil) y cifrado de comunicación entre el portal web y LMS (Moodle) utilizando un servicio KMS de terceros.
+- **Auditoría:** Análisis de código estático con SonarQube Cloud, reduciendo vulnerabilidades y mejorando la calificación de seguridad.
 
+### 📅 Sistema de Reservas de Aulas y Laboratorios (ESFOT) - Arquitectura Dockerizada
+*Sistema integral para resolver la asignación y cruce de horarios, desplegado en contenedores para garantizar su escalabilidad.*
 - **🔗 Repositorio Frontend:** [Frontend-Reservas-ESFOT](https://github.com/RichardSoria/Frontend-Reservas-ESFOT)
 - **🔗 Repositorio Backend:** [Backend-Reservas-ESFOT](https://github.com/RichardSoria/Backend-Reservas-ESFOT)
-- **Arquitectura:** Desarrollo FullStack completo con un backend robusto y un frontend interactivo.
-- **Gestión de Usuarios:** Implementación de control de acceso basado en roles (Administrador, Docente, Estudiante).
-- **Lógica de Negocio:** Desarrollo de algoritmos para la validación estricta de horarios, evitando conflictos de reserva en tiempo real.
-- **Interfaz de Usuario:** Diseño moderno e intuitivo utilizando CoreUI y React.
-- **Despliegue (DevOps):** Configuración e implementación de entornos contenerizados mediante Docker Compose para backend, frontend y base de datos, asegurando la portabilidad y escalabilidad del sistema.
+- **Arquitectura:** Desarrollo FullStack con backend robusto (Fastify, Mongoose) y frontend interactivo (React, CoreUI).
+- **Gestión de Accesos:** Implementación de control de roles (Administrador, Docente, Estudiante).
+- **Despliegue (DevOps):** Configuración en contenedores Docker, con MongoDB Replica Set para alta disponibilidad y balanceo de carga mediante NGINX.
+
+### 🌐 Desarrollo Web: Landing Page VII ValSe-Food - EPN
+*Colaboración en el diseño y desarrollo de una plataforma web centrada en la experiencia de usuario.*
+- **Diseño UI/UX:** Implementación de una interfaz visual atractiva, accesible e intuitiva.
 
 ### 📊 Sistema de Procesamiento de Clientes CSV
-*Aplicación web en Python (Streamlit) para la carga, procesamiento y análisis de bases de datos de clientes, aplicando el patrón de diseño MVC. Desarrollado para la materia de Modelado de Software.*
+*Aplicación web en Python (Streamlit) para la carga, procesamiento y análisis de bases de datos de clientes, aplicando el patrón de diseño MVC.*
 - **🔗 Repositorio:** [Gestor CSV - Modelado de Software](https://github.com/RichardSoria/App-Consultas-Simples-Richard-Soria-Modelado-Software)
 
-### 🌐 Sistema de Optimización de Fibra Óptica (Algoritmo de Kruskal)
+### 🗺️ Sistema de Optimización de Fibra Óptica (Algoritmo de Kruskal)
 *Aplicación interactiva para automatizar el cálculo del Árbol de Expansión Mínimo (MST) en una red de ciudades. Proyecto de Matemáticas Discretas 2.*
 - **🔗 Repositorio:** [Optimización Fibra Óptica](https://github.com/RichardSoria/P3-S11-Actividad-Formativa-Richard-Soria)
 
+---
+
 ## 💼 Experiencia Profesional
 
-### 👨‍💼 Asistente de Soporte Técnico – EPN (2024 - 2025)
-- Atención directa al usuario y resolución eficiente de incidencias técnicas.
-- Clonación de imágenes de sistema y configuración masiva de equipos para laboratorios.
-- Instalación, configuración y soporte de software institucional especializado.
-- Colaboración estrecha con el equipo de desarrollo para la ejecución de pruebas de calidad (QA).
+### 💻 Desarrollador de Software (Pasante) – EPN (2026)
+- Desarrollo Full-Stack para el Sistema de Turnos de la Mesa de Servicios de Soporte.
+- Implementación de arquitectura en tiempo real utilizando C#, .NET y SignalR (WebSockets).
+- Gestión y optimización de consultas en bases de datos relacionales (SQL Server).
 
-### 🖥️ Auxiliar de Desarrollo – EPN (2024 – 2025)
-- Desarrollo e implementación de nuevas funcionalidades para plataformas web internas.
-- Automatización de procesos académicos repetitivos, mejorando la eficiencia administrativa.
-- Soporte y capacitación a usuarios institucionales sobre las herramientas desarrolladas.
+### 👨‍💼 Asistente de Soporte Técnico (Pasante) – EPN (2024 - 2025)
+- Atención directa al usuario y resolución eficiente de incidencias técnicas de hardware y software.
+- Instalación, clonación de imágenes de sistemas (Windows/Linux) y configuración masiva de equipos.
+- Liderazgo y capacitación técnica de equipo de pasantes.
 
-### 📋 Asistente Administrativo – Transporte & Maquinaria (2022 – Actualidad)
-- Gestión integral de facturación electrónica y control de roles de trabajo.
-- Coordinación operativa y control administrativo de recursos.
+### 📋 Asistente Administrativo y Operativo – Transporte & Maquinaria (2022 – Actualidad)
+- Organización y coordinación de tareas operativas, elaboración de planillas de trabajo y facturación electrónica.
 
 ### 🔧 Técnico de Mantenimiento Freelance (2022 – Actualidad)
-- Diagnóstico de fallas de hardware, instalación de componentes y mantenimiento preventivo/correctivo de computadoras.
-- Optimización del rendimiento de sistemas operativos y resolución de conflictos de drivers.
+- Diagnóstico, instalación de componentes y mantenimiento preventivo/correctivo de equipos informáticos.
+
+---
 
 ## 🎯 Perfil Profesional y Competencias
 
 - **🛡️ Seguridad Informática:** Conocimientos sólidos en ciberseguridad, con capacidad para detectar vulnerabilidades y proponer mejoras en la arquitectura de los sistemas.
 - **🧠 Resolución de Problemas:** Enfoque analítico para la optimización de código y procesos lógicos.
-- **🤝 Trabajo en Equipo:** Experiencia comprobada en entornos colaborativos, siempre con un enfoque orientado a resultados medibles.
-- **⚙️ Autodidacta:** Alta iniciativa para el aprendizaje constante de nuevas tecnologías (actualmente explorando herramientas de IA y RPA).
-- **🗣️ Idiomas:** Inglés (Nivel B2 - Intermedio Avanzado).
+- **🤝 Trabajo en Equipo:** Experiencia comprobada en entornos colaborativos, coordinando equipos técnicos y requerimientos de usuarios.
+- **⚙️ Autodidacta:** Alta iniciativa para el aprendizaje constante de nuevas tecnologías (IA, RPA, nuevas arquitecturas).
+- **🗣️ Idiomas:** Inglés (Nivel B2 - Intermedio Avanzado) | Español (Nativo).
+
+---
 
 ## 📫 Contacto
 
 Siempre dispuesto a discutir nuevos retos, colaborar en proyectos innovadores o compartir conocimientos sobre desarrollo y tecnología.
 
 - **GitHub:** [RichardSoria](https://github.com/RichardSoria)
-- **Email Principal:** [rickimauri04@hotmail.com](mailto:rickimauri04@hotmail.com)
+- **Email:** [richard.soria2004@gmail.com](mailto:richard.soria2004@gmail.com)
